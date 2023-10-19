@@ -1,0 +1,153 @@
+@import url("portifoliocss/faixa.css");
+
+body {
+    background: url(img/fundofoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h3 {
+font-size: 24px;
+padding: 0.5em;
+}
+
+p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+footer img {
+    margin-top: 1.6em;
+    width: 112px;
+    height: 112px;
+    margin-bottom: 1em;
+    margin-left: 1.25em;
+}
+
+.about {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+footer p {
+    font-family: var(--fonte-principal);
+    color: var(--roxo-escuro);
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 2em;
+
+}
+
+
+:root {
+    --cor-de-fundo: #effeff;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --fonte-terciaria: "Young Serif";
+    --branco: #FFFFFF;
+    --roxo: #983baa;
+    --rosa-degrade: linear-gradient(97.54deg, #cc5fb4 35.49%, #f09fde 165.37%);
+    --fonte-principal: "Poppins";
+    --roxo-escuro: #4b1166;
+    --fonte-secundaria: "Young Serif";
+    --preto: #000000;
+    --fonte-terciaria: "Young Serif";
+    --dourado:  #ffdb58;
+}
+
+h2 {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-size: 24px;
+    color: var(--preto);
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+}
+
+/*add*/
+
+.banner__introdução {
+ text-align: center;
+ margin-bottom: 2em;
+}
+
+.ul__cabeçalho {
+margin-right: 13.5em;
+}
+
+.faixa__cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1em;
+    margin-left: 16.89776em;
+  
+}
+
+.item-cabeçalho__título {
+    text-decoration: none;
+    padding: 0.8em 1em 0.8em 1em;
+    color: var(--preto);
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: var(--fonte-principal);
+    backdrop-filter: blur(20px);
+    transition: 0.7s;
+}
+
+.item-cabeçalho__título:hover{
+   background: #FFFFFF;
+   color: #162938;
+   border: 2px solid #162938;
+
+}
+
+
+header img {
+    width: 198px;
+    height: 149px;
+    border-radius: 50%;
+    border: 5px solid var(--preto);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.foto__estilo {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: 36px;
+    color: var(--preto);
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+}
+
+.informações__container {
+    padding: 1em;
+    font-family: var(--fonte-principal);
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+}
+
+.contato__container {
+    padding: 1em;
+    font-family: var(--fonte-principal);
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+    .item-cabeçalho__título {
+        font-size: 32px;
+    }
+
+    .banner__introdução {
+       display: flex;
+       justify-content: space-between;
+       margin: 1em;
+    }
+}

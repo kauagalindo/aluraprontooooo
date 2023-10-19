@@ -1,0 +1,77 @@
+.hr {
+    margin: 0em;
+}
+
+.rodapé {
+    background-color: var(--branco);
+    padding: 1em;
+    border-radius: 6px;
+}
+
+.rodapé__titulo {
+    color: var(--cinza);
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.lista-rodapé {
+    margin-left: 1em;
+}
+
+.lista-rodapé__link {
+    text-decoration: none;
+    color: gray;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodapé {
+        display: flex;
+    }
+
+    .lista-rodapé__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-rodapé__link {
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: 1em;
+    }
+
+    .lista-rodapé__educação, .lista--rodapé {
+        margin-left: 6em;
+    }
+
+    .lista-rodapé__educação {
+        margin-bottom: 1em;
+    }
+
+    .lista-rodapé__item img {
+       border-radius: 50%;
+       padding: .3em;
+       margin:  .4em;
+    }
+
+    .lista-rodapé__item img:hover {
+       background: gray;
+       transition: 0.5s;
+       border: .3em solid #cfb8cd;
+     }
+
+     .lista-rodapé__título {
+        color: var(--cinza);
+        font-size: 1.2em;
+        font-weight: 500;
+     }
+
+    .lista-rodapé__título:hover {
+            color: var(--cinza);
+            font-size: 1.2em;
+            font-weight: 500;
+            text-decoration: gray underline;
+            transform: 0.5s;
+
+     }
+
+}
