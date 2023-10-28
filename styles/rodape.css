@@ -6,6 +6,8 @@
     background-color: var(--branco);
     padding: 1em;
     border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .rodapé__titulo {
@@ -55,8 +57,8 @@
 
     .lista-rodapé__item img:hover {
        background: gray;
-       transition: 0.5s;
-       border: .3em solid #cfb8cd;
+       transition: .2s;
+       border: .3em solid #c09f45;
      }
 
      .lista-rodapé__título {

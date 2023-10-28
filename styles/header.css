@@ -46,7 +46,7 @@ display: block;
 }
 
 .lista-menu__link {
-   background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+   background: linear-gradient(97.54deg, #e0bc58 35.49%, #d1ad6a 165.37%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
@@ -97,7 +97,7 @@ display: block;
     padding: 1em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--roxo);
+    color: goldenrod;
     font-weight: 400;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
